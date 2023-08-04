@@ -1,0 +1,66 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-color: #d6cad5;
+  width: 80%;
+  border-radius: 15px;
+}
+
+.add-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.name {
+  font-size: 35px;
+  font-family: Cambria;
+  text-align: center;
+}
+.email-container {
+  display: flex;
+  margin-left: 5px;
+  align-items: center;
+  width: 60%;
+}
+.email-heading {
+  text-decoration: underline;
+  margin-right: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  font-variant-caps: titling-caps;
+}
+.contact-and-title-container {
+  display: flex;
+  align-items: center;
+}
+.contact-title {
+  text-decoration: underline;
+  margin-right: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  font-variant-caps: titling-caps;
+}
+.contact-img {
+  width: 15px;
+  height: 15px;
+}
+
+.phone-and-title {
+  display: flex;
+  align-items: center;
+}
+.address-container {
+  display: flex;
+  width: 50%;
+}
+.address {
+  text-decoration: underline;
+  margin-right: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  font-variant-caps: titling-caps;
+}
